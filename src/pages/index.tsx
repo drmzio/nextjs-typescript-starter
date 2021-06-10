@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 
 export default function HomePage() {
   return (
@@ -60,7 +59,7 @@ export default function HomePage() {
         >
           Powered by{' '}
           <span className="h-4 flex-col">
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <img src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
